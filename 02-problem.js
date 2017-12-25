@@ -15,4 +15,4 @@ function moreArrayMultiply(num, arr, callback) {
 
 const result = moreArrayMultiply(2, [1, 4, 3], arrayMultiplyAgain)
 
-console.log('Result', result)
+console.log('Result: ', result)

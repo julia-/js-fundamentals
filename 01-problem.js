@@ -12,4 +12,4 @@ const result = arrayMultiply(2, 2, '123', (num, numString) => {
   return arr.map(item => item * num)
 })
 
-console.log(result);
+console.log('Result: ', result)
