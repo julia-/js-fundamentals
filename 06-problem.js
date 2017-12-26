@@ -22,7 +22,7 @@ function looper(callback) {
   return callback
 }
 
-looper(() => 'Finished 6 in the callback')
+looper(() => console.log('Finished 6 in the callback'))
 
 console.log('After looper')
 console.log('..now heading off to other parts of the program!')
