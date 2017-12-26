@@ -14,12 +14,12 @@
 function looper(callback) {
   console.time('looper')
   // reduced number of loops
-  for (let i = 0; i < 10000; i++) {
+  for (let i = 0; i < 3000; i++) {
     console.log(`Loop ${i}`)
   }
   console.log('After loop!')
   console.timeEnd('looper')
-  return callback
+  return callback()
 }
 
 looper(() => console.log('Finished 6 in the callback'))
